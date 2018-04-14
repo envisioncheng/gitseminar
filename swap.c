@@ -12,7 +12,9 @@ int main(void)
     int temp = x;
     x = y;
     y = temp;
-    
+
     print("x is now %i\n", x);
     print("y is now %i\n", y);
+
+     string conflict="冲突github in net";
 }
