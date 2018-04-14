@@ -9,6 +9,9 @@ int main(void)
     printf("y is %i\n", y);
 
     // sqapping...
+    int temp = x;
+    x = y;
+    y = tem;
     print("x is now %i\n", x);
-    print("y is now %i\n", y)
+    print("y is now %i\n", y);
 }
